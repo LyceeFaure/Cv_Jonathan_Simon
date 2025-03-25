@@ -2,7 +2,7 @@ body {
     background: #1e1e1e; /* Fond plus sombre pour un look moderne */
     width: 800px;
     margin: auto; /* Centrer le CV */
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial';
     font-size: 18px;
     padding: 20px 30px;
     color: #fff; /* Texte blanc pour contraster avec le fond sombre */
