@@ -1,4 +1,3 @@
-/* Corps du CV */
 body {
     background: #1e1e1e; /* Fond plus sombre pour un look moderne */
     width: 800px;
@@ -9,8 +8,6 @@ body {
     color: #fff; /* Texte blanc pour contraster avec le fond sombre */
     line-height: 1.6; /* Espacement de ligne plus agréable */
 }
-
-/* Titre principal */
 h1 {
     font-family: 'Fantasy', sans-serif;
     font-size: 42px;
@@ -20,8 +17,6 @@ h1 {
     border-bottom: 2px solid #805EB2; /* Souligner le titre */
     text-align: center;
 }
-
-/* Titre secondaire */
 h2 {
     font-family: 'Segoe Script', sans-serif;
     font-size: 30px;
@@ -31,16 +26,12 @@ h2 {
     margin-bottom: 15px;
     text-align: center;
 }
-
-/* Section description ou information personnelle */
 p {
     margin-left: 30px;
     padding-left: 10px;
     color: #D3D3D3;
     font-size: 18px;
 }
-
-/* Header, avec informations personnelles */
 header {
     width: 100%;
     font-size: 16px;
@@ -48,16 +39,12 @@ header {
     margin: 20px 0;
     color: #D3D3D3;
 }
-
-/* Style des paragraphes dans le header */
 header p {
     font-family: 'Segoe Script', sans-serif;
     font-size: 21px;
     color: #333;
     margin-top: 10px;
 }
-
-/* Liste des compétences ou des informations */
 header ul {
     font-size: 16px;
     font-weight: bold;
@@ -70,28 +57,20 @@ header ul {
 header ul li {
     margin-bottom: 8px;
 }
-
-/* Style des sections de contenu */
 aside {
     margin-right: 20px;
 }
-
-/* Liste avec un retrait et une bordure gauche */
 ul {
     margin-left: 30px;
     padding: 5px 0;
     border-left: 2px solid #999;
 }
-
-/* Texte en italique gris */
 .gris_italique {
     font-style: italic;
     font-size: 16px;
     font-weight: normal;
     color: #999;
 }
-
-/* Photo de profil */
 #photo {
     width: 200px;
     height: auto;
@@ -100,43 +79,22 @@ ul {
     border-radius: 50%; /* Pour une photo ronde */
     border: 3px solid #805EB2;
 }
-
-/* Email stylisé */
 #email {
     text-decoration: none;
     font-size: 22px;
     color: seagreen;
     font-weight: bold;
 }
-
-/* Texte en gras, couleur cyan */
 strong {
     color: darkcyan;
 }
-
-/* Ajouter un fond de couleur légère à chaque section */
 section {
     background-color: #2A2A2A;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
 }
-
-/* Un peu de padding et de marges pour l'ensemble */
 section h3 {
     font-size: 24px;
     color: #A43121;
     margin-bottom: 10px;
-}
-
-/* Ajout de la mise en page de colonne pour rendre l'ensemble plus structuré */
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.column {
-    width: 48%; /* Deux colonnes avec un petit espace entre elles */
-    margin-bottom: 20px;
-}
